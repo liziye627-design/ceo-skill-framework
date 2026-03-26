@@ -1,22 +1,24 @@
-# CEO Orchestration Framework for Claude Code
+# OpenClaw - Your AI-Powered One-Person Company
 
-> "Contents is all you need" - Enterprise-grade AI orchestration system modeled after traditional software development organizations.
+> "Build like a team, ship like a machine" - Transform yourself into a complete virtual organization with 20+ AI role agents working under your command.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-brightgreen)
-![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A0-brightgreen)
+![OpenClaw](https://img.shields.io/badge/OpenClaw%20Protocol-v1.0-orange)
 
-## What is CEO?
+---
 
-CEO is an **open-source** orchestration framework for Claude Code that transforms a single AI agent into a **complete virtual development organization**. Inspired by traditional enterprise software development structures, CEO orchestrates **20+ specialized role agents** to collaborate, negotiate, and deliver production-grade software.
+## What is OpenClaw?
 
-### Enterprise Architecture Model
+**OpenClaw** is an open-source orchestration framework for Claude Code that transforms a single developer into a **complete one-person company**. Inspired by traditional software development organizations, OpenClaw gives you **20+ specialized AI role agents** that collaborate, negotiate, and deliver production-grade software—all coordinated by you.
+
+### The One-Person Company Revolution
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Virtual CEO Office                      │
-│                  (Orchestration Layer)                   │
+│            YOUR OPENCLAW ONE-PERSON COMPANY              │
+│                    (You + AI Workforce)                  │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
@@ -42,212 +44,243 @@ CEO is an **open-source** orchestration framework for Claude Code that transform
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Why This Approach Matters
+### Why OpenClaw Matters
 
-Traditional software companies succeed because they have **specialized teams** working together:
+Traditional companies succeed because they have **specialized teams**. OpenClaw gives you the same—at scale impossible for a solo developer:
 
-| Traditional Organization | CEO Framework |
-|---------------------|---------------|
-| Product Managers define strategy | `@pm-commercial` |
-| Growth teams optimize funnels | `@growth-lead` |
-| Designers create visuals | `@uiux-director` |
-| Engineers build features | `@frontend-eng`, `@backend-eng` |
-| QA ensures quality | `@qa-auto` |
-| Security teams protect users | `@security-lead` |
-| Legal/compliance review risks | `@legal-compliance` |
+| Traditional Company | Your OpenClaw One-Person Company |
+|------------------|------------------------------|
+| Product Managers | `@pm-commercial` AI agent |
+| Growth teams | `@growth-lead` AI agent |
+| Designers | `@uiux-director` AI agent |
+| Engineers | `@frontend-eng`, `@backend-eng` AI agents |
+| QA engineers | `@qa-auto` AI agent |
+| Security teams | `@security-lead` AI agent |
+| Legal/compliance | `@legal-compliance` AI agent |
+| **Cost**: Millions/year | **Cost**: Free (open source) |
 
-CEO brings this **full organizational structure** to your AI development workflow.
+---
+
+## OPC - OpenClaw Protocol
+
+OpenClaw operates on **OPC (OpenClaw Protocol)**, a standardized framework for AI agent orchestration in one-person companies.
+
+### OPC Core Principles
+
+1. **Contents First** - Context before execution
+2. **Role Specialization** - Each agent has defined expertise
+3. **Structured Handoffs** - Explicit communication protocols
+4. **Quantified Selection** - Data-driven agent routing
+5. **Conflict Resolution** - Negotiation before arbitration
+6. **Artifact-Driven** - All work tracked in structured files
+
+### OPC Version 1.0 Components
+
+| Component | Description |
+|------------|-------------|
+| **OPC-Routing** | Agent selection and skill loading logic |
+| **OPC-Handoff** | Inter-agent communication standard |
+| **OPC-Artifacts** | Project artifact structure and schemas |
+| **OPC-Negotiation** | Multi-agent conflict resolution protocol |
+| **OPC-Governance** | Role permissions and escalation rules |
 
 ---
 
 ## Key Features
 
-### 🏢 Enterprise Organization Structure
+### 🏢 Virtual Organization Structure
 
-- **20+ Specialized Role Agents**: Each with distinct responsibilities and expertise
-- **Color-Coded Team Output**: Easy visual identification of which team is speaking
-- **Parallel Execution Matrix**: Multiple teams working simultaneously, just like real orgs
-- **Explicit Handoffs**: Clear communication between teams, no information lost
+- **20+ Specialized Role Agents**: Each with distinct responsibilities
+- **Color-Coded Team Output**: Instant visual identification of active role
+- **Parallel Execution Matrix**: Multiple agents working simultaneously
+- **OPC-Compliant Handoffs**: Structured communication, no information loss
 
-### 🎯 Phase-Gated Delivery
-
-```
-Phase 0 → Feasibility → Gate → Phase 1 → Solution → Gate →
-Phase 2 → Delivery → Gate → Phase 3 → Launch/Ops
-```
-
-Each phase has required approvals and can't start without the previous phase's output.
-
-### 📊 Quantified Decision Making
-
-Agents are selected using a **5-dimension weighted scoring system**:
+### 🎯 OPC Phase-Gated Delivery
 
 ```
-score = 30% relevance
-      + 20% risk coverage
-      + 20% expected contribution
-      + 15% latency efficiency
-      + 15% historical ROI
+Phase 0 → Feasibility → OPC-Gate → Phase 1 → Solution → OPC-Gate →
+Phase 2 → Delivery → OPC-Gate → Phase 3 → Launch/Ops
 ```
 
-### 🔄 Conflict Resolution Protocol
+Each phase follows OPC standards and requires explicit approval to proceed.
 
-When teams disagree, CEO manages a structured negotiation:
+### 📊 OPC Quantified Decision Making
 
-1. **Round 1**: Each team creates their proposal
+Agents selected using **OPC-Routing** scoring formula:
+
+```
+OPC-Score = 30% relevance
+          + 20% risk coverage
+          + 20% expected contribution
+          + 15% latency efficiency
+          + 15% historical ROI
+```
+
+Thresholds (OPC Standard):
+- `>= 70`: Auto-include
+- `50-69`: Include if dependency/risk requires
+- `< 50`: Do not include by default
+
+### 🔄 OPC Conflict Resolution
+
+When agents disagree, **OPC-Negotiation** protocol activates:
+
+1. **Round 1**: Each agent creates proposal
 2. **Round 2**: Refine based on feedback
-3. **Escalation**: @arbiter makes final decision if needed
+3. **Escalation**: `@arbiter` makes final decision
 
-### 📝 Complete Artifact System
+### 📝 OPC Artifact System
 
-All work is tracked in structured artifacts:
+All work tracked in **OPC-Artifacts** compliant structure:
 
 ```
-runs/YYYY-MM-DD_HHMM/
-├── context/             # Global truth and role-specific shards
-├── artifacts/          # Decisions, contracts, proposals
-├── handoffs/          # Inter-team communication
-└── contribution.json   # Performance metrics per role
+projects/{NAME}/runs/YYYY-MM-DD_HHMM/
+├── context/              # OPC context shards
+│   ├── global.md          # Single source of truth
+│   ├── shards/           # Role-specific context
+│   └── handoffs/         # OPC handoff protocol
+├── artifacts/            # Decisions, proposals
+└── contribution.json     # OPC governance metrics
 ```
 
 ---
 
-## Role Agents Reference
+## OPC Role Agents
 
-| Role | Color | Department | Core Responsibility |
-|-------|--------|-------------|---------------------|
-| `@pm-commercial` | #4C6FFF | Product | Strategy, MVP, GTM, pricing |
-| `@growth-lead` | #F39C12 | Growth | Funnel, conversion, experiments |
-| `@brand-marketing` | #E74C3C | Marketing | Messaging, narrative, positioning |
-| `@seo-lead` | #27AE60 | Marketing | Organic traffic, ranking, schema |
-| `@uiux-director` | #9B59B6 | Design | Visual direction, accessibility |
-| `@frontend-eng` | #3498DB | Engineering | Client state, data flow |
-| `@backend-eng` | #2C3E50 | Engineering | API contracts, data model |
-| `@data-analytics` | #16A085 | Analytics | Events, attribution, metrics |
-| `@engineering-manager` | #7F8C8D | Management | Sequencing, ownership, risk |
-| `@qa-auto` | #E67E22 | QA | Test scope, automation |
-| `@security-lead` | #C0392B | Security | Threat model, authn/authz |
-| `@sre-infra` | #8E44AD | Ops | SLO/SLA, rollout, capacity |
-| `@release-manager` | #D35400 | Release | Release plan, verification |
-| `@support-cs` | #2980B9 | Support | Customer impact, triage |
-| `@sales-revops` | #6C3483 | Sales | Entitlements, pricing ops |
-| `@legal-compliance` | #1A5276 | Legal | GDPR/SOC2, compliance |
-| `@mobile-expo` | #95A5A6 | Mobile | Expo/mobile UX |
-| `@video-remotion` | #D98880 | Media | Video generation pipeline |
-| `@auth-lead` | #17A589 | Auth | Auth architecture |
-| `@content-studio` | #F7DC6F | Content | Asset production, publishing |
-| `@arbiter` | #5D6D7E | Governance | Final decision maker |
+| Role | Color | Department | OPC-Defined Responsibility |
+|-------|--------|-------------|--------------------------|
+| `@pm-commercial` | #4C6FFF | Product | Strategy, MVP, GTM, pricing per OPC-PM spec |
+| `@growth-lead` | #F39C12 | Growth | Funnel, conversion, experiments per OPC-Growth |
+| `@brand-marketing` | #E74C3C | Marketing | Messaging, narrative, positioning per OPC-Brand |
+| `@seo-lead` | #27AE60 | Marketing | Organic traffic, ranking, schema per OPC-SEO |
+| `@uiux-director` | #9B59B6 | Design | Visual direction, accessibility per OPC-Design |
+| `@frontend-eng` | #3498DB | Engineering | Client state, data flow per OPC-Frontend |
+| `@backend-eng` | #2C3E50 | Engineering | API contracts, data model per OPC-Backend |
+| `@data-analytics` | #16A085 | Analytics | Events, attribution, metrics per OPC-Analytics |
+| `@engineering-manager` | #7F8C8D | Management | Sequencing, ownership, risk per OPC-Management |
+| `@qa-auto` | #E67E22 | QA | Test scope, automation per OPC-QA |
+| `@security-lead` | #C0392B | Security | Threat model, authn/authz per OPC-Security |
+| `@sre-infra` | #8E44AD | Ops | SLO/SLA, rollout, capacity per OPC-Ops |
+| `@release-manager` | #D35400 | Release | Release plan, verification per OPC-Release |
+| `@support-cs` | #2980B9 | Support | Customer impact, triage per OPC-Support |
+| `@sales-revops` | #6C3483 | Sales | Entitlements, pricing ops per OPC-Sales |
+| `@legal-compliance` | #1A5276 | Legal | GDPR/SOC2, compliance per OPC-Legal |
+| `@mobile-expo` | #95A5A6 | Mobile | Expo/mobile UX per OPC-Mobile |
+| `@video-remotion` | #D98880 | Media | Video generation pipeline per OPC-Media |
+| `@auth-lead` | #17A589 | Auth | Auth architecture per OPC-Auth |
+| `@content-studio` | #F7DC6F | Content | Asset production, publishing per OPC-Content |
+| `@arbiter` | #5D6D7E | Governance | Final decision maker per OPC-Governance |
 
 ---
 
-## Skills Ecosystem
+## OPC Skills Ecosystem
 
-CEO integrates with a comprehensive skills ecosystem, each representing specialized tools and methodologies:
+OpenClaw integrates with OPC-compliant skills across 11 domains:
 
-### 📦 Core Skills
+### 📦 Core OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `build-one` | Phase-gated project lifecycle framework |
-| `commercial-pm` | Product management brainstorming playbook |
-| `agent-negotiation-protocol` | Multi-agent conflict resolution system |
-| `self-iteration-loop` | Post-run learning and improvement |
+| Skill | OPC Component |
+|--------|---------------|
+| `build-one` | OPC Phase-Gate Engine |
+| `commercial-pm` | OPC Product Management |
+| `agent-negotiation-protocol` | OPC Negotiation Protocol |
+| `self-iteration-loop` | OPC Learning System |
 
-### 🎨 Design Skills
+### 🎨 Design OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `ui-ux-pro-max` | 67 styles, 96 palettes, 57 font pairings, 25 charts |
-| `frontend-design` | Aesthetic direction and anti-slop patterns |
+| Skill | Capability |
+|--------|------------|
+| `ui-ux-pro-max` | 67 styles, 96 palettes, 57 fonts, 25 charts |
+| `frontend-design` | Aesthetic direction, anti-slop patterns |
 | `web-design-guidelines` | UI/UX audit checklist |
 | `theme-factory` | Theme application system |
 
-### 💻 Engineering Skills
+### 💻 Engineering OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `vercel-react-best-practices` | React/Next.js performance optimization |
-| `web-artifacts-builder` | Complex shadcn/tailwind component generation |
+| Skill | Focus |
+|--------|--------|
+| `vercel-react-best-practices` | React/Next.js performance |
+| `web-artifacts-builder` | shadcn/tailwind components |
 
-### 📈 Growth Skills
+### 📈 Growth OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `page-cro` | Page-level conversion rate optimization |
+| Skill | Domain |
+|--------|---------|
+| `page-cro` | Page conversion optimization |
 | `signup-flow-cro` | Signup funnel optimization |
-| `onboarding-cro` | User onboarding conversion |
-| `pricing-strategy` | Pricing and packaging decisions |
-| `launch-strategy` | Go-to-market planning |
-| `analytics-tracking` | Event tracking implementation |
-| `marketing-psychology` | Behavioral design principles |
-| `paid-ads` | Advertising campaign optimization |
-| `social-content` | Social media content creation |
+| `onboarding-cro` | User onboarding |
+| `pricing-strategy` | Pricing decisions |
+| `launch-strategy` | GTM planning |
+| `analytics-tracking` | Event tracking |
+| `marketing-psychology` | Behavioral design |
+| `paid-ads` | Ad optimization |
+| `social-content` | Social media content |
 
-### 🔍 SEO Skills
+### 🔍 SEO OPC Skills
 
-| Skill | Purpose |
+| Skill | Function |
 |--------|----------|
 | `seo-audit` | SEO health assessment |
-| `schema-markup` | Structured data implementation |
-| `programmatic-seo` | pSEO page generation |
-| `competitor-alternatives` | Competitor analysis pages |
+| `schema-markup` | Structured data |
+| `programmatic-seo` | pSEO generation |
+| `competitor-alternatives` | Competitor analysis |
 
-### 📝 Content Skills
+### 📝 Content OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `baoyu-cover-image` | Cover image generation |
-| `baoyu-infographic` | Infographic creation |
-| `baoyu-xhs-images` | XiaoHongShu image generation |
-| `baoyu-slide-deck` | Presentation slide creation |
+| Skill | Output |
+|--------|---------|
+| `baoyu-cover-image` | Cover images |
+| `baoyu-infographic` | Infographics |
+| `baoyu-xhs-images` | XiaoHongShu assets |
+| `baoyu-slide-deck` | Presentations |
 | `baoyu-post-to-wechat` | WeChat publishing |
-| `baoyu-post-to-x` | X/Twitter publishing |
-| `baoyu-url-to-markdown` | URL content extraction |
+| `baoyu-post-to-x` | X/Twitter posting |
+| `baoyu-url-to-markdown` | Content extraction |
 | `baoyu-compress-image` | Image optimization |
 
-### 🧪 QA Skills
+### 🧪 QA OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
+| Skill | Capability |
+|--------|------------|
 | `agent-browser` | Browser automation |
-| `webapp-testing` | Web application testing |
+| `webapp-testing` | Web app testing |
 
-### 📄 Documentation Skills
+### 📄 Documentation OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `doc-coauthoring` | Collaborative documentation |
-| `internal-comms` | Internal communication |
-| `docx` | Word document processing |
-| `pptx` | PowerPoint presentation handling |
-| `xlsx` | Excel spreadsheet operations |
+| Skill | Format |
+|--------|---------|
+| `doc-coauthoring` | Collaborative docs |
+| `internal-comms` | Internal comms |
+| `docx` | Word documents |
+| `pptx` | PowerPoint files |
+| `xlsx` | Excel spreadsheets |
 | `pdf` | PDF manipulation |
 
-### 📱 Mobile Skills
+### 📱 Mobile OPC Skills
 
-| Skill | Purpose |
+| Skill | Platform |
 |--------|----------|
-| `building-native-ui` | Native UI construction |
-| `upgrading-expo` | Expo project upgrades |
-| `expo-tailwind-setup` | Tailwind integration |
-| `native-data-fetching` | Data fetching patterns |
-| `expo-api-routes` | API route implementation |
+| `building-native-ui` | Native UI |
+| `upgrading-expo` | Expo upgrades |
+| `expo-tailwind-setup` | Tailwind on mobile |
+| `native-data-fetching` | Data patterns |
+| `expo-api-routes` | API routes |
 | `expo-deployment` | App deployment |
 | `expo-cicd-workflows` | CI/CD pipelines |
-| `expo-dev-client` | Development client setup |
-| `use-dom` | DOM usage patterns |
+| `expo-dev-client` | Dev client |
+| `use-dom` | DOM usage |
 
-### 🎬 Video Skills
+### 🎬 Video OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `remotion-best-practices` | Remotion video generation patterns |
+| Skill | Framework |
+|--------|-----------|
+| `remotion-best-practices` | Remotion video |
 
-### 🔐 Auth Skills
+### 🔐 Auth OPC Skills
 
-| Skill | Purpose |
-|--------|----------|
-| `better-auth-best-practices` | Better Auth integration guide |
+| Skill | System |
+|--------|---------|
+| `better-auth-best-practices` | Better Auth integration |
 
 ---
 
@@ -256,43 +289,44 @@ CEO integrates with a comprehensive skills ecosystem, each representing speciali
 ### Quick Start
 
 ```bash
-# Clone the repository
+# Clone the OpenClaw repository
 git clone https://github.com/liziye627-design/ceo-skill-framework.git
 cd ceo-skill-framework
 
-# Install CEO skill
-cp -r skills/ceo ~/.claude/skills/
+# Rename skill to openclaw
+mv skills/ceo skills/openclaw
+cp skills/openclaw/SKILL.md ~/.claude/skills/openclaw/SKILL.md
 
-# Start Claude Code and invoke CEO
-/CEO Build a SaaS landing page
+# Start Claude Code and invoke OpenClaw
+/OpenClaw Build a SaaS platform
 ```
 
-### Trigger Modes
+### Trigger Modes (OPC-Compliant)
 
 | Command | Mode | Description |
 |---------|-------|-------------|
-| `/CEO` | Plan-First | Generates plan, asks for confirmation |
-| `/CEO exec` | Execution | Implements with build-one lifecycle |
-| `/CEO exec adhoc` | Ad-Hoc | Bypasses phase gates |
+| `/OpenClaw` | Plan-First | Generates plan, asks for confirmation |
+| `/OpenClaw exec` | Execution | Implements with OPC phase gates |
+| `/OpenClaw exec adhoc` | Ad-Hoc | Bypasses OPC phase gates |
 
 ### Example Session
 
 ```
-User: /CEO Build a developer tool SaaS
+You: /OpenClaw Build a developer tool SaaS
 
-CEO:
+OpenClaw (following OPC-Routing):
 ┌──────────────────────────────────────────────────────────┐
-│ 1) CEO Brief                                     │
+│ 1) Project Brief                                   │
 │    Goal: Build developer tool SaaS                  │
 │    Deliverables: Landing page + auth + dashboard     │
 │                                                     │
-│ 2) Track Selection                                  │
-│    - Build One (full lifecycle)                      │
+│ 2) OPC Track Selection                              │
+│    - Build One (OPC Phase-Gated)                    │
 │                                                     │
 │ 3) Skill Loadout                                    │
-│    - ui-ux-pro-max (design system)                 │
-│    - vercel-react-best-practices (performance)       │
-│    - commercial-pm (product strategy)                │
+│    - ui-ux-pro-max (OPC Design System)           │
+│    - vercel-react-best-practices (OPC Frontend)    │
+│    - commercial-pm (OPC Product)                 │
 │                                                     │
 │ 4) Work Orders                                      │
 │    @pm-commercial: Define ICP and JTBD            │
@@ -300,63 +334,64 @@ CEO:
 │    @frontend-eng: Implement React components           │
 │                                                     │
 │ 5) Next Command                                      │
-│    Reply with: /CEO exec                             │
+│    Reply with: /OpenClaw exec                         │
 └──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Architecture
+## OPC Architecture
 
 ```
 User Request
     │
-    ├─→ Trigger Gate (explicit /CEO required)
+    ├─→ OPC Trigger Gate (explicit /OpenClaw required)
     │
     v
-Content Pack Collection
+OPC Content Pack Collection
     │
     v
-Track Classification (14+ tracks)
+OPC Track Classification (14+ tracks)
     │
     v
-Skill Selection (50+ skills ecosystem)
+OPC Skill Selection (50+ skills)
     │
     v
-Agent Scoring (5-dimension weighted)
+OPC Agent Scoring (5-dimension weighted)
     │
     v
-Parallel Batch Execution
+OPC Parallel Batch Execution
     │
-    ├─→ Batch A: Feasibility
-    ├─→ Batch B: Solution
-    ├─→ Batch C: Delivery
-    └─→ Batch D: Launch/Ops
+    ├─→ Batch A: Feasibility (OPC Phase 0)
+    ├─→ Batch B: Solution (OPC Phase 1)
+    ├─→ Batch C: Delivery (OPC Phase 2)
+    └─→ Batch D: Launch/Ops (OPC Phase 3)
 ```
 
 ---
 
 ## Open Source
 
-This is an **open-source** project under the MIT License. We believe that enterprise-grade AI orchestration should be accessible to everyone.
+OpenClaw is an **open-source** project under MIT License. We believe every developer deserves a virtual team.
 
-### Why Open Source?
+### Why OpenClaw is Open Source?
 
-- **Transparency**: See how decisions are made
+- **Transparency**: See how OPC decisions are made
 - **Extensibility**: Add your own skills and roles
 - **Community**: Learn from others' implementations
-- **Standardization**: Establish patterns for AI team orchestration
+- **Standardization**: Establish OPC as the protocol for AI team orchestration
+- **Accessibility**: One-person companies shouldn't need enterprise budgets
 
 ### Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 Areas of interest:
-- New role agents
+- New OPC-compliant role agents
 - Additional skill integrations
-- Documentation improvements
+- OPC specification improvements
+- Documentation and examples
 - Tooling and automation
-- Example workflows
 
 ---
 
@@ -369,14 +404,17 @@ Areas of interest:
 git clone https://github.com/liziye627-design/ceo-skill-framework.git
 cd ceo-skill-framework
 
-# 2. Install CEO skill
-mkdir -p ~/.claude/skills
-cp -r skills/ceo ~/.claude/skills/
+# 2. Rename CEO to OpenClaw
+mv skills/ceo skills/openclaw
 
-# 3. (Optional) Copy ui-ux-pro-max if you need design tools
+# 3. Install OpenClaw skill
+mkdir -p ~/.claude/skills
+cp -r skills/openclaw ~/.claude/skills/
+
+# 4. (Optional) Copy ui-ux-pro-max for design tools
 cp -r skills/ui-ux-pro-max ~/.claude/skills/
 
-# 4. Restart Claude Code
+# 5. Restart Claude Code
 ```
 
 ### Full Installation (All Skills)
@@ -385,7 +423,7 @@ cp -r skills/ui-ux-pro-max ~/.claude/skills/
 # Install all skills
 cp -r skills/* ~/.claude/skills/
 
-# (Optional) Install role agents for colored output
+# (Optional) Install role agents for OPC-compliant output
 mkdir -p ~/.opencode/agent
 cp agents/* ~/.opencode/agent/
 ```
@@ -394,36 +432,35 @@ cp agents/* ~/.opencode/agent/
 
 ## Documentation
 
-- [Architecture Guide](./docs/ARCHITECTURE.md) - Deep dive into internal architecture
-- [Installation Guide](./docs/INSTALLATION.md) - Detailed installation instructions
+- [OPC Specification](./docs/ARCHITECTURE.md) - Deep dive into OPC protocol
+- [Installation Guide](./docs/INSTALLATION.md) - Detailed installation
 - [Role Agents Reference](./docs/ROLE_AGENTS.md) - Complete role documentation
 - [Skills Ecosystem](./skills-ecosystem/) - Full skills catalog
 - [Examples](./examples/) - Example workflows
 
 ---
 
-## Comparison: Traditional vs CEO Framework
+## Comparison: Traditional vs OpenClaw
 
-| Aspect | Traditional Dev | CEO Framework |
-|---------|-----------------|---------------|
-| Team Size | Fixed, limited | Dynamic, 20+ agents available |
-| Specialization | Human experts | Specialized AI agents |
-| Coordination | Meetings, emails | Structured handoffs |
-| Decision Making | Hierarchical | Quantified scoring |
-| Context Sharing | Implicit, lossy | Explicit artifacts |
-| Conflict Resolution | Political | Negotiation protocol |
-| Cost | High (salaries) | Free (open source) |
-| Scale | Difficult | Instant parallelism |
+| Aspect | Traditional Company | Your OpenClaw One-Person Company |
+|---------|--------------------|------------------------------|
+| Team Size | Dozens of employees | You + 20+ AI agents |
+| Specialization | Department silos | Instant cross-functional |
+| Coordination | Meetings, Slack channels | OPC handoffs |
+| Decision Making | Politics, hierarchy | Quantified OPC scoring |
+| Hiring | Months to fill roles | Instant availability |
+| Cost | Millions per year | Free (open source) |
+| Scale | Linear scaling | Parallel AI execution |
 
 ---
 
 ## Roadmap
 
-- [ ] Additional role agents (DevOps, Database, etc.)
-- [ ] Web dashboard for visualizing team execution
-- [ ] Integration with more skills
-- [ ] Real-time contribution analytics
-- [ ] Community marketplace for skills/roles
+- [ ] OPC Dashboard for visualizing team execution
+- [ ] Real-time OPC governance metrics
+- [ ] Community marketplace for OPC skills/roles
+- [ ] OPC compliance testing tools
+- [ ] Integration with OpenClaw cloud services
 
 ---
 
@@ -437,11 +474,11 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 ### Maintainer
 
-**[liziye627](https://github.com/liziye627-design)** - Primary author and maintainer of the CEO Orchestration Framework.
+**[liziye627-design](https://github.com/liziye627-design)** - Creator of OpenClaw and the OPC protocol.
 
 ### Acknowledgments
 
-Built for the Claude Code community by developers who believe in the power of well-organized teams.
+Built for developers building their one-person companies with AI. The future of software development is solo founders with AI teams.
 
 ---
 
@@ -462,4 +499,18 @@ Built for the Claude Code community by developers who believe in the power of we
 
 ## Stargazers
 
-Thanks to all who star this project! ⭐
+Thanks to all building their OpenClaw one-person companies! ⭐
+
+---
+
+## OpenClaw Manifesto
+
+We believe:
+
+1. **One person can build anything** with the right team
+2. **AI agents are the new teammates**—not assistants
+3. **Structure matters**—teams need protocols like OPC
+4. **Transparency builds trust**—open source or nothing
+5. **The future is solo founders** with AI organizations
+
+**Join us in redefining what's possible for one-person companies.**
