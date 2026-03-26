@@ -1,55 +1,57 @@
-# OpenClaw - Your AI-Powered One-Person Company
+# One-Person Company Framework
 
-> "Build like a team, ship like a machine" - Transform yourself into a complete virtual organization with 20+ AI role agents working under your command.
+> "Build like a team, ship like a machine" - An orchestration framework that transforms a single developer into a complete virtual organization with 20+ AI role agents working under your command.
+
+**Compatible with**: [openclaw](https://github.com) | [Claude Code](https://claude.ai/claude-code)
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-brightgreen)
-![OpenClaw](https://img.shields.io/badge/OpenClaw%20Protocol-v1.0-orange)
+![Openclaw](https://img.shields.io/badge/Openclaw-compatible-brightgreen)
 
 ---
 
-## What is OpenClaw?
+## What is This Framework?
 
-**OpenClaw** is an open-source orchestration framework for Claude Code that transforms a single developer into a **complete one-person company**. Inspired by traditional software development organizations, OpenClaw gives you **20+ specialized AI role agents** that collaborate, negotiate, and deliver production-grade software—all coordinated by you.
+This is an **open-source orchestration framework** that transforms a single developer into a **complete one-person company**. It applies **OPC (One-Person Company) Protocol** to coordinate **20+ specialized AI role agents** that collaborate, negotiate, and deliver production-grade software.
 
 ### The One-Person Company Revolution
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│            YOUR OPENCLAW ONE-PERSON COMPANY              │
-│                    (You + AI Workforce)                  │
+│            YOUR ONE-PERSON COMPANY                       │
+│              (You + AI Workforce)                         │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
-│  │ Product  │  │ Growth   │  │ Branding │    │
-│  │   Team   │  │   Team   │  │   Team   │    │
-│  └──────────┘  └──────────┘  └──────────┘    │
+│  │ Product  │  │ Growth   │  │ Branding  │    │
+│  │   Team   │  │   Team   │  │   Team    │    │
+│  └──────────┘  └──────────┘  └───────────┘    │
 │                                                             │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
-│  │   UX/UI  │  │ Frontend │  │ Backend  │    │
-│  │   Team   │  │   Team   │  │   Team   │    │
-│  └──────────┘  └──────────┘  └──────────┘    │
+│  │   UX/UI  │  │ Frontend │  │ Backend   │    │
+│  │   Team   │  │   Team   │  │   Team    │    │
+│  └──────────┘  └──────────┘  └───────────┘    │
 │                                                             │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
-│  │ Security │  │    QA    │  │   Ops    │    │
-│  │   Team   │  │   Team   │  │   Team   │    │
-│  └──────────┘  └──────────┘  └──────────┘    │
+│  │ Security │  │    QA    │  │   Ops     │    │
+│  │   Team   │  │   Team   │  │   Team    │    │
+│  └──────────┘  └──────────┘  └───────────┘    │
 │                                                             │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
 │  │ Content  │  │   SEO    │  │ Support  │    │
-│  │  Studio  │  │   Team   │  │   Team   │    │
-│  └──────────┘  └──────────┘  └──────────┘    │
+│  │  Studio  │  │   Team   │  │   Team    │    │
+│  └──────────┘  └──────────┘  └───────────┘    │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Why OpenClaw Matters
+### Why This Framework Matters
 
-Traditional companies succeed because they have **specialized teams**. OpenClaw gives you the same—at scale impossible for a solo developer:
+Traditional companies succeed because they have **specialized teams**. This framework gives you the same—at scale impossible for a solo developer:
 
-| Traditional Company | Your OpenClaw One-Person Company |
-|------------------|------------------------------|
+| Traditional Company | Your One-Person Company |
+|------------------|--------------------------|
 | Product Managers | `@pm-commercial` AI agent |
 | Growth teams | `@growth-lead` AI agent |
 | Designers | `@uiux-director` AI agent |
@@ -61,9 +63,9 @@ Traditional companies succeed because they have **specialized teams**. OpenClaw 
 
 ---
 
-## OPC - OpenClaw Protocol
+## OPC - One-Person Company Protocol
 
-OpenClaw operates on **OPC (OpenClaw Protocol)**, a standardized framework for AI agent orchestration in one-person companies.
+This framework operates on **OPC (One-Person Company Protocol)**, a standardized framework for AI agent orchestration in one-person companies.
 
 ### OPC Core Principles
 
@@ -175,7 +177,7 @@ projects/{NAME}/runs/YYYY-MM-DD_HHMM/
 
 ## OPC Skills Ecosystem
 
-OpenClaw integrates with OPC-compliant skills across 11 domains:
+This framework integrates with OPC-compliant skills across 11 domains:
 
 ### 📦 Core OPC Skills
 
@@ -289,32 +291,31 @@ OpenClaw integrates with OPC-compliant skills across 11 domains:
 ### Quick Start
 
 ```bash
-# Clone the OpenClaw repository
+# Clone the repository
 git clone https://github.com/liziye627-design/ceo-skill-framework.git
 cd ceo-skill-framework
 
-# Rename skill to openclaw
-mv skills/ceo skills/openclaw
-cp skills/openclaw/SKILL.md ~/.claude/skills/openclaw/SKILL.md
+# For Claude Code
+cp -r skills/one-person-company ~/.claude/skills/
 
-# Start Claude Code and invoke OpenClaw
-/OpenClaw Build a SaaS platform
+# For OpenClaw
+cp -r skills/one-person-company ~/.openclaw/skills/
 ```
 
 ### Trigger Modes (OPC-Compliant)
 
 | Command | Mode | Description |
 |---------|-------|-------------|
-| `/OpenClaw` | Plan-First | Generates plan, asks for confirmation |
-| `/OpenClaw exec` | Execution | Implements with OPC phase gates |
-| `/OpenClaw exec adhoc` | Ad-Hoc | Bypasses OPC phase gates |
+| `/Company` | Plan-First | Generates plan, asks for confirmation |
+| `/Company exec` | Execution | Implements with OPC phase gates |
+| `/Company exec adhoc` | Ad-Hoc | Bypasses OPC phase gates |
 
 ### Example Session
 
 ```
-You: /OpenClaw Build a developer tool SaaS
+You: /Company Build a developer tool SaaS
 
-OpenClaw (following OPC-Routing):
+Framework (following OPC-Routing):
 ┌──────────────────────────────────────────────────────────┐
 │ 1) Project Brief                                   │
 │    Goal: Build developer tool SaaS                  │
@@ -334,18 +335,18 @@ OpenClaw (following OPC-Routing):
 │    @frontend-eng: Implement React components           │
 │                                                     │
 │ 5) Next Command                                      │
-│    Reply with: /OpenClaw exec                         │
+│    Reply with: /Company exec                         │
 └──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## OPC Architecture
+## Architecture
 
 ```
 User Request
     │
-    ├─→ OPC Trigger Gate (explicit /OpenClaw required)
+    ├─→ OPC Trigger Gate (explicit /Company required)
     │
     v
 OPC Content Pack Collection
@@ -372,14 +373,14 @@ OPC Parallel Batch Execution
 
 ## Open Source
 
-OpenClaw is an **open-source** project under MIT License. We believe every developer deserves a virtual team.
+This is an **open-source** project under MIT License. We believe every developer deserves a virtual team.
 
-### Why OpenClaw is Open Source?
+### Why Open Source?
 
 - **Transparency**: See how OPC decisions are made
 - **Extensibility**: Add your own skills and roles
 - **Community**: Learn from others' implementations
-- **Standardization**: Establish OPC as the protocol for AI team orchestration
+- **Standardization**: Establish OPC as protocol for AI team orchestration
 - **Accessibility**: One-person companies shouldn't need enterprise budgets
 
 ### Contributing
@@ -395,41 +396,6 @@ Areas of interest:
 
 ---
 
-## Installation
-
-### Basic Installation
-
-```bash
-# 1. Clone
-git clone https://github.com/liziye627-design/ceo-skill-framework.git
-cd ceo-skill-framework
-
-# 2. Rename CEO to OpenClaw
-mv skills/ceo skills/openclaw
-
-# 3. Install OpenClaw skill
-mkdir -p ~/.claude/skills
-cp -r skills/openclaw ~/.claude/skills/
-
-# 4. (Optional) Copy ui-ux-pro-max for design tools
-cp -r skills/ui-ux-pro-max ~/.claude/skills/
-
-# 5. Restart Claude Code
-```
-
-### Full Installation (All Skills)
-
-```bash
-# Install all skills
-cp -r skills/* ~/.claude/skills/
-
-# (Optional) Install role agents for OPC-compliant output
-mkdir -p ~/.opencode/agent
-cp agents/* ~/.opencode/agent/
-```
-
----
-
 ## Documentation
 
 - [OPC Specification](./docs/ARCHITECTURE.md) - Deep dive into OPC protocol
@@ -440,9 +406,9 @@ cp agents/* ~/.opencode/agent/
 
 ---
 
-## Comparison: Traditional vs OpenClaw
+## Comparison: Traditional vs Your Framework
 
-| Aspect | Traditional Company | Your OpenClaw One-Person Company |
+| Aspect | Traditional Company | Your One-Person Company |
 |---------|--------------------|------------------------------|
 | Team Size | Dozens of employees | You + 20+ AI agents |
 | Specialization | Department silos | Instant cross-functional |
@@ -450,7 +416,6 @@ cp agents/* ~/.opencode/agent/
 | Decision Making | Politics, hierarchy | Quantified OPC scoring |
 | Hiring | Months to fill roles | Instant availability |
 | Cost | Millions per year | Free (open source) |
-| Scale | Linear scaling | Parallel AI execution |
 
 ---
 
@@ -459,8 +424,7 @@ cp agents/* ~/.opencode/agent/
 - [ ] OPC Dashboard for visualizing team execution
 - [ ] Real-time OPC governance metrics
 - [ ] Community marketplace for OPC skills/roles
-- [ ] OPC compliance testing tools
-- [ ] Integration with OpenClaw cloud services
+- [ ] Integration with more platforms
 
 ---
 
@@ -474,11 +438,11 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 ### Maintainer
 
-**[liziye627-design](https://github.com/liziye627-design)** - Creator of OpenClaw and the OPC protocol.
+**[liziye627-design](https://github.com/liziye627-design)** - Creator of OPC (One-Person Company Protocol).
 
 ### Acknowledgments
 
-Built for developers building their one-person companies with AI. The future of software development is solo founders with AI teams.
+Built for developers building their one-person companies with AI. The future of software development is solo founders with AI organizations.
 
 ---
 
@@ -499,16 +463,16 @@ Built for developers building their one-person companies with AI. The future of 
 
 ## Stargazers
 
-Thanks to all building their OpenClaw one-person companies! ⭐
+Thanks to all building their one-person companies! ⭐
 
 ---
 
-## OpenClaw Manifesto
+## Manifesto
 
 We believe:
 
 1. **One person can build anything** with the right team
-2. **AI agents are the new teammates**—not assistants
+2. **AI agents are your teammates**—not assistants
 3. **Structure matters**—teams need protocols like OPC
 4. **Transparency builds trust**—open source or nothing
 5. **The future is solo founders** with AI organizations
