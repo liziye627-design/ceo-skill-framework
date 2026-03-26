@@ -1,266 +1,459 @@
 # CEO Orchestration Framework for Claude Code
 
-> "Contents is all you need" - A CEO-style orchestration router for AI-powered software development teams.
+> "Contents is all you need" - Enterprise-grade AI orchestration system modeled after traditional software development organizations.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-brightgreen)
+![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A0-brightgreen)
 
-## Overview
+## What is CEO?
 
-CEO is a skill-based orchestration framework for Claude Code that transforms the AI agent into a full-stack development team coordinator. It applies the "Contents is all you need" philosophy to intelligently route work to the right skills and subagents at the right time.
+CEO is an **open-source** orchestration framework for Claude Code that transforms a single AI agent into a **complete virtual development organization**. Inspired by traditional enterprise software development structures, CEO orchestrates **20+ specialized role agents** to collaborate, negotiate, and deliver production-grade software.
 
-### What CEO Does
+### Enterprise Architecture Model
 
-- **Context-First Approach**: Collects the right context before deciding implementation
-- **Intelligent Routing**: Selects appropriate skills and role agents based on task analysis
-- **Phase-Gated Execution**: Uses the Build One lifecycle for production-grade delivery
-- **Parallel Execution**: Coordinates multiple role agents simultaneously
-- **Structured Collaboration**: Enforces clear handoffs and accountability
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Virtual CEO Office                      │
+│                  (Orchestration Layer)                   │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
+│  │ Product  │  │ Growth   │  │ Branding │    │
+│  │   Team   │  │   Team   │  │   Team   │    │
+│  └──────────┘  └──────────┘  └──────────┘    │
+│                                                             │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
+│  │   UX/UI  │  │ Frontend │  │ Backend  │    │
+│  │   Team   │  │   Team   │  │   Team   │    │
+│  └──────────┘  └──────────┘  └──────────┘    │
+│                                                             │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
+│  │ Security │  │    QA    │  │   Ops    │    │
+│  │   Team   │  │   Team   │  │   Team   │    │
+│  └──────────┘  └──────────┘  └──────────┘    │
+│                                                             │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
+│  │ Content  │  │   SEO    │  │ Support  │    │
+│  │  Studio  │  │   Team   │  │   Team   │    │
+│  └──────────┘  └──────────┘  └──────────┘    │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-## Features
+### Why This Approach Matters
 
-### Core Capabilities
+Traditional software companies succeed because they have **specialized teams** working together:
 
-| Feature | Description |
-|---------|-------------|
-| **Plan-First Mode** | Produces clear plans before execution, preventing unwanted changes |
-| **Execution Mode** | Implements work with full team coordination |
-| **Quantified Agent Routing** | Scores and selects agents based on 5 weighted dimensions |
-| **Context Sharding** | Isolates memory between subagents for clean handoffs |
-| **Team View Protocol** | Colored, structured output for clear agent separation |
-| **Post-Run Review** | Tracks agent contribution for continuous improvement |
+| Traditional Organization | CEO Framework |
+|---------------------|---------------|
+| Product Managers define strategy | `@pm-commercial` |
+| Growth teams optimize funnels | `@growth-lead` |
+| Designers create visuals | `@uiux-director` |
+| Engineers build features | `@frontend-eng`, `@backend-eng` |
+| QA ensures quality | `@qa-auto` |
+| Security teams protect users | `@security-lead` |
+| Legal/compliance review risks | `@legal-compliance` |
 
-### Role Agents
+CEO brings this **full organizational structure** to your AI development workflow.
 
-CEO works with a comprehensive set of role agents:
+---
 
-| Role | Color | Focus |
-|------|-------|-------|
-| `@pm-commercial` | #4C6FFF | Strategy, MVP, GTM, pricing |
-| `@growth-lead` | #F39C12 | Funnel, conversion, experiments |
-| `@brand-marketing` | #E74C3C | Messaging, narrative, positioning |
-| `@seo-lead` | #27AE60 | Organic traffic, ranking, schema |
-| `@uiux-director` | #9B59B6 | Visual direction, accessibility, design tokens |
-| `@frontend-eng` | #3498DB | Client state, data flow, performance |
-| `@backend-eng` | #2C3E50 | API contracts, data model, observability |
-| `@data-analytics` | #16A085 | Event taxonomy, attribution, metrics |
-| `@engineering-manager` | #7F8C8D | Sequencing, ownership, risk planning |
-| `@qa-auto` | #E67E22 | Test scope, automation, regression |
-| `@security-lead` | #C0392B | Threat model, authn/authz, data classification |
-| `@sre-infra` | #8E44AD | SLO/SLA, rollout, capacity |
-| `@release-manager` | #D35400 | Release plan, verification, rollback |
-| `@support-cs` | #2980B9 | Customer impact, repro quality |
-| `@sales-revops` | #6C3483 | Entitlements, pricing operations |
-| `@legal-compliance` | #1A5276 | GDPR/SOC2, privacy, audit |
-| `@mobile-expo` | #95A5A6 | Expo/mobile UX, offline, compatibility |
-| `@video-remotion` | #D98880 | Video generation, rendering pipeline |
-| `@auth-lead` | #17A589 | Auth architecture, session strategy |
-| `@content-studio` | #F7DC6F | Asset production, publishing workflow |
-| `@arbiter` | #5D6D7E | Final arbitration between proposals |
+## Key Features
+
+### 🏢 Enterprise Organization Structure
+
+- **20+ Specialized Role Agents**: Each with distinct responsibilities and expertise
+- **Color-Coded Team Output**: Easy visual identification of which team is speaking
+- **Parallel Execution Matrix**: Multiple teams working simultaneously, just like real orgs
+- **Explicit Handoffs**: Clear communication between teams, no information lost
+
+### 🎯 Phase-Gated Delivery
+
+```
+Phase 0 → Feasibility → Gate → Phase 1 → Solution → Gate →
+Phase 2 → Delivery → Gate → Phase 3 → Launch/Ops
+```
+
+Each phase has required approvals and can't start without the previous phase's output.
+
+### 📊 Quantified Decision Making
+
+Agents are selected using a **5-dimension weighted scoring system**:
+
+```
+score = 30% relevance
+      + 20% risk coverage
+      + 20% expected contribution
+      + 15% latency efficiency
+      + 15% historical ROI
+```
+
+### 🔄 Conflict Resolution Protocol
+
+When teams disagree, CEO manages a structured negotiation:
+
+1. **Round 1**: Each team creates their proposal
+2. **Round 2**: Refine based on feedback
+3. **Escalation**: @arbiter makes final decision if needed
+
+### 📝 Complete Artifact System
+
+All work is tracked in structured artifacts:
+
+```
+runs/YYYY-MM-DD_HHMM/
+├── context/             # Global truth and role-specific shards
+├── artifacts/          # Decisions, contracts, proposals
+├── handoffs/          # Inter-team communication
+└── contribution.json   # Performance metrics per role
+```
+
+---
+
+## Role Agents Reference
+
+| Role | Color | Department | Core Responsibility |
+|-------|--------|-------------|---------------------|
+| `@pm-commercial` | #4C6FFF | Product | Strategy, MVP, GTM, pricing |
+| `@growth-lead` | #F39C12 | Growth | Funnel, conversion, experiments |
+| `@brand-marketing` | #E74C3C | Marketing | Messaging, narrative, positioning |
+| `@seo-lead` | #27AE60 | Marketing | Organic traffic, ranking, schema |
+| `@uiux-director` | #9B59B6 | Design | Visual direction, accessibility |
+| `@frontend-eng` | #3498DB | Engineering | Client state, data flow |
+| `@backend-eng` | #2C3E50 | Engineering | API contracts, data model |
+| `@data-analytics` | #16A085 | Analytics | Events, attribution, metrics |
+| `@engineering-manager` | #7F8C8D | Management | Sequencing, ownership, risk |
+| `@qa-auto` | #E67E22 | QA | Test scope, automation |
+| `@security-lead` | #C0392B | Security | Threat model, authn/authz |
+| `@sre-infra` | #8E44AD | Ops | SLO/SLA, rollout, capacity |
+| `@release-manager` | #D35400 | Release | Release plan, verification |
+| `@support-cs` | #2980B9 | Support | Customer impact, triage |
+| `@sales-revops` | #6C3483 | Sales | Entitlements, pricing ops |
+| `@legal-compliance` | #1A5276 | Legal | GDPR/SOC2, compliance |
+| `@mobile-expo` | #95A5A6 | Mobile | Expo/mobile UX |
+| `@video-remotion` | #D98880 | Media | Video generation pipeline |
+| `@auth-lead` | #17A589 | Auth | Auth architecture |
+| `@content-studio` | #F7DC6F | Content | Asset production, publishing |
+| `@arbiter` | #5D6D7E | Governance | Final decision maker |
+
+---
+
+## Skills Ecosystem
+
+CEO integrates with a comprehensive skills ecosystem, each representing specialized tools and methodologies:
+
+### 📦 Core Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `build-one` | Phase-gated project lifecycle framework |
+| `commercial-pm` | Product management brainstorming playbook |
+| `agent-negotiation-protocol` | Multi-agent conflict resolution system |
+| `self-iteration-loop` | Post-run learning and improvement |
+
+### 🎨 Design Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `ui-ux-pro-max` | 67 styles, 96 palettes, 57 font pairings, 25 charts |
+| `frontend-design` | Aesthetic direction and anti-slop patterns |
+| `web-design-guidelines` | UI/UX audit checklist |
+| `theme-factory` | Theme application system |
+
+### 💻 Engineering Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `vercel-react-best-practices` | React/Next.js performance optimization |
+| `web-artifacts-builder` | Complex shadcn/tailwind component generation |
+
+### 📈 Growth Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `page-cro` | Page-level conversion rate optimization |
+| `signup-flow-cro` | Signup funnel optimization |
+| `onboarding-cro` | User onboarding conversion |
+| `pricing-strategy` | Pricing and packaging decisions |
+| `launch-strategy` | Go-to-market planning |
+| `analytics-tracking` | Event tracking implementation |
+| `marketing-psychology` | Behavioral design principles |
+| `paid-ads` | Advertising campaign optimization |
+| `social-content` | Social media content creation |
+
+### 🔍 SEO Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `seo-audit` | SEO health assessment |
+| `schema-markup` | Structured data implementation |
+| `programmatic-seo` | pSEO page generation |
+| `competitor-alternatives` | Competitor analysis pages |
+
+### 📝 Content Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `baoyu-cover-image` | Cover image generation |
+| `baoyu-infographic` | Infographic creation |
+| `baoyu-xhs-images` | XiaoHongShu image generation |
+| `baoyu-slide-deck` | Presentation slide creation |
+| `baoyu-post-to-wechat` | WeChat publishing |
+| `baoyu-post-to-x` | X/Twitter publishing |
+| `baoyu-url-to-markdown` | URL content extraction |
+| `baoyu-compress-image` | Image optimization |
+
+### 🧪 QA Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `agent-browser` | Browser automation |
+| `webapp-testing` | Web application testing |
+
+### 📄 Documentation Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `doc-coauthoring` | Collaborative documentation |
+| `internal-comms` | Internal communication |
+| `docx` | Word document processing |
+| `pptx` | PowerPoint presentation handling |
+| `xlsx` | Excel spreadsheet operations |
+| `pdf` | PDF manipulation |
+
+### 📱 Mobile Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `building-native-ui` | Native UI construction |
+| `upgrading-expo` | Expo project upgrades |
+| `expo-tailwind-setup` | Tailwind integration |
+| `native-data-fetching` | Data fetching patterns |
+| `expo-api-routes` | API route implementation |
+| `expo-deployment` | App deployment |
+| `expo-cicd-workflows` | CI/CD pipelines |
+| `expo-dev-client` | Development client setup |
+| `use-dom` | DOM usage patterns |
+
+### 🎬 Video Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `remotion-best-practices` | Remotion video generation patterns |
+
+### 🔐 Auth Skills
+
+| Skill | Purpose |
+|--------|----------|
+| `better-auth-best-practices` | Better Auth integration guide |
+
+---
 
 ## Usage
 
-### Triggering CEO
+### Quick Start
 
-CEO requires explicit invocation:
+```bash
+# Clone the repository
+git clone https://github.com/liziye627-design/ceo-skill-framework.git
+cd ceo-skill-framework
 
-```
-/CEO
-```
+# Install CEO skill
+cp -r skills/ceo ~/.claude/skills/
 
-For immediate execution:
-
-```
-/CEO exec
-```
-
-For ad-hoc execution (bypassing phase gates):
-
-```
-/CEO exec adhoc
+# Start Claude Code and invoke CEO
+/CEO Build a SaaS landing page
 ```
 
-### Default Behavior
+### Trigger Modes
 
-When invoked without `exec`, CEO operates in **Plan-First mode**:
-1. Produces a CEO Brief
-2. Creates Work Orders for each role
-3. Requests confirmation before proceeding
+| Command | Mode | Description |
+|---------|-------|-------------|
+| `/CEO` | Plan-First | Generates plan, asks for confirmation |
+| `/CEO exec` | Execution | Implements with build-one lifecycle |
+| `/CEO exec adhoc` | Ad-Hoc | Bypasses phase gates |
 
-This ensures you have full control over what gets implemented.
-
-### Build One Gate
-
-When using `build-one` execution mode, Phase 1 starts only after CEO explicitly says:
+### Example Session
 
 ```
-子叶君出击
-```
+User: /CEO Build a developer tool SaaS
 
-This is a hard gate that prevents premature implementation.
-
-## Tracks
-
-CEO classifies requests into tracks for optimal skill loading:
-
-| Track | Use Case | Skills Loaded |
-|-------|-----------|---------------|
-| **Build One** | Full project lifecycle with phase gates | `build-one`, `agent-negotiation-protocol` |
-| **Commercial PM** | Brainstorming direction, MVP, pricing | `commercial-pm` |
-| **Negotiation** | Multi-role convergence or contracts | `agent-negotiation-protocol` |
-| **UI/UX** | Visual design, layout, typography | `ui-ux-pro-max`, `frontend-design` |
-| **Frontend** | Data flow, state, API integration | `vercel-react-best-practices` |
-| **Growth/Marketing** | Conversion, pricing, campaigns | `page-cro`, `pricing-strategy`, `analytics-tracking` |
-| **SEO** | Ranking, indexation, structured data | `seo-audit`, `schema-markup`, `pSEO` |
-| **Content Studio** | Assets, covers, publishing | `baoyu-*` skills |
-| **Browser/QA** | Screenshots, web checks | `agent-browser`, `webapp-testing` |
-| **Docs/Ops** | PRDs, specs, internal comms | `doc-coauthoring`, `docx`, `pptx` |
-| **Mobile (Expo)** | Expo/React Native projects | `building-native-ui`, `expo-*` |
-| **Video (Remotion)** | Remotion video work | `remotion-best-practices` |
-| **Auth** | Better Auth integration | `better-auth-best-practices` |
-
-## Project Structure
-
-```
-CEO/projects/{PROJECT}/runs/YYYY-MM-DD_HHMM/
-├── context.md                    # Global context (single source of truth)
-├── contract.md                   # Cross-role contracts (when needed)
-├── proposal-A.md                 # Option A (when negotiating)
-├── proposal-B.md                 # Option B (when negotiating)
-├── decision.md                   # Final decision
-├── 00-01-handoff.md            # Phase 0 to 1 handoff (build-one)
-├── 01-02-handoff.md            # Phase 1 to 2 handoff
-├── 02-03-handoff.md            # Phase 2 to 3 handoff
-└── agent_contribution.json       # Role contribution tracking
-```
-
-## Installation
-
-### For Claude Code Users
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/ceo-skill-framework.git
-   cd ceo-skill-framework
-   ```
-
-2. Copy the skill to your Claude Code skills directory:
-   ```bash
-   mkdir -p ~/.claude/skills
-   cp -r skills/* ~/.claude/skills/
-   ```
-
-3. Restart Claude Code
-
-### For Role Agents
-
-Install role agents to `~/.opencode/agent/` for colored, readable team output.
-
-## Output Format
-
-### Plan-First Output
-
-```
-1) CEO Brief
-   - Goal, constraints, deliverables, risks
-
-2) Track Selection
-   - Which tracks apply, and why
-
-3) Skill Loadout
-   - Explicit list of skills to use
-
-4) Work Orders
-   - One per subagent/role
-
-5) Next Command
-   - Single input to proceed (e.g., "/CEO exec")
-```
-
-### Execution Output
-
-```text
+CEO:
 ┌──────────────────────────────────────────────────────────┐
-│ [ACTIVE_ROLE] @pm-commercial                            │
-│ [ROLE_COLOR] #4C6FFF                                    │
-│ [PHASE] phase0  [RUN_ID] growth-audit_2026-02-06_1430   │
-│ [STATUS] done                                           │
-│ TASK: Define ICP, JTBD, and test scope.                 │
-│ OUTPUT: Selected SMB ICP, clarified non-goals,          │
-│         and set kill criteria.                          │
-│ NEXT: handoff -> @growth-lead                           │
+│ 1) CEO Brief                                     │
+│    Goal: Build developer tool SaaS                  │
+│    Deliverables: Landing page + auth + dashboard     │
+│                                                     │
+│ 2) Track Selection                                  │
+│    - Build One (full lifecycle)                      │
+│                                                     │
+│ 3) Skill Loadout                                    │
+│    - ui-ux-pro-max (design system)                 │
+│    - vercel-react-best-practices (performance)       │
+│    - commercial-pm (product strategy)                │
+│                                                     │
+│ 4) Work Orders                                      │
+│    @pm-commercial: Define ICP and JTBD            │
+│    @uiux-director: Create visual design              │
+│    @frontend-eng: Implement React components           │
+│                                                     │
+│ 5) Next Command                                      │
+│    Reply with: /CEO exec                             │
 └──────────────────────────────────────────────────────────┘
 ```
 
-## Design Philosophy
+---
 
-### Contents is All You Need
-
-CEO starts by gathering a "Content Pack" before making decisions:
-
-- **Goal**: What outcome are we optimizing for?
-- **Audience**: Who is this for?
-- **Constraints**: time, budget, tech stack, brand, compliance
-- **Inputs**: links, docs, screenshots, codebase path
-- **Deliverables**: what artifacts must be produced
-- **Definition of Done**: how we will verify success
-
-### Subagent Memory Isolation
-
-CEO enforces stateless subagent execution:
-- Fresh context per run
-- No hidden memory assumptions
-- Explicit handoffs via artifacts
-- Context sharding for role relevance
-
-### Quantified Decision Making
-
-Agent selection uses a weighted scoring formula:
+## Architecture
 
 ```
-score = 0.30*relevance +
-        0.20*risk_coverage +
-        0.20*expected_contribution +
-        0.15*latency_efficiency +
-        0.15*historical_roi
+User Request
+    │
+    ├─→ Trigger Gate (explicit /CEO required)
+    │
+    v
+Content Pack Collection
+    │
+    v
+Track Classification (14+ tracks)
+    │
+    v
+Skill Selection (50+ skills ecosystem)
+    │
+    v
+Agent Scoring (5-dimension weighted)
+    │
+    v
+Parallel Batch Execution
+    │
+    ├─→ Batch A: Feasibility
+    ├─→ Batch B: Solution
+    ├─→ Batch C: Delivery
+    └─→ Batch D: Launch/Ops
 ```
 
-Thresholds:
-- `>= 70`: Auto-include
-- `50-69`: Include if dependency/risk requires
-- `< 50`: Do not include by default
+---
 
-## Parallel Execution Matrix
+## Open Source
 
-CEO coordinates parallel work in batches:
+This is an **open-source** project under the MIT License. We believe that enterprise-grade AI orchestration should be accessible to everyone.
 
-| Batch | Phase | Roles |
-|--------|--------|-------|
-| **A** | Feasibility | PM, Growth, Brand, (SEO) |
-| **B** | Solution | PM, UI/UX, Frontend/Backend, Data |
-| **C** | Delivery | Eng Manager, Frontend/Backend, QA, (Security/SRE) |
-| **D** | Launch/Ops | Release, Growth (SEO), Support, Data |
+### Why Open Source?
 
-## Contributing
+- **Transparency**: See how decisions are made
+- **Extensibility**: Add your own skills and roles
+- **Community**: Learn from others' implementations
+- **Standardization**: Establish patterns for AI team orchestration
 
-Contributions are welcome! Areas of interest:
+### Contributing
 
-- Additional role agents
-- Skill integrations
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+Areas of interest:
+- New role agents
+- Additional skill integrations
 - Documentation improvements
+- Tooling and automation
 - Example workflows
-- Tooling (linting, validation)
+
+---
+
+## Installation
+
+### Basic Installation
+
+```bash
+# 1. Clone
+git clone https://github.com/liziye627-design/ceo-skill-framework.git
+cd ceo-skill-framework
+
+# 2. Install CEO skill
+mkdir -p ~/.claude/skills
+cp -r skills/ceo ~/.claude/skills/
+
+# 3. (Optional) Copy ui-ux-pro-max if you need design tools
+cp -r skills/ui-ux-pro-max ~/.claude/skills/
+
+# 4. Restart Claude Code
+```
+
+### Full Installation (All Skills)
+
+```bash
+# Install all skills
+cp -r skills/* ~/.claude/skills/
+
+# (Optional) Install role agents for colored output
+mkdir -p ~/.opencode/agent
+cp agents/* ~/.opencode/agent/
+```
+
+---
+
+## Documentation
+
+- [Architecture Guide](./docs/ARCHITECTURE.md) - Deep dive into internal architecture
+- [Installation Guide](./docs/INSTALLATION.md) - Detailed installation instructions
+- [Role Agents Reference](./docs/ROLE_AGENTS.md) - Complete role documentation
+- [Skills Ecosystem](./skills-ecosystem/) - Full skills catalog
+- [Examples](./examples/) - Example workflows
+
+---
+
+## Comparison: Traditional vs CEO Framework
+
+| Aspect | Traditional Dev | CEO Framework |
+|---------|-----------------|---------------|
+| Team Size | Fixed, limited | Dynamic, 20+ agents available |
+| Specialization | Human experts | Specialized AI agents |
+| Coordination | Meetings, emails | Structured handoffs |
+| Decision Making | Hierarchical | Quantified scoring |
+| Context Sharing | Implicit, lossy | Explicit artifacts |
+| Conflict Resolution | Political | Negotiation protocol |
+| Cost | High (salaries) | Free (open source) |
+| Scale | Difficult | Instant parallelism |
+
+---
+
+## Roadmap
+
+- [ ] Additional role agents (DevOps, Database, etc.)
+- [ ] Web dashboard for visualizing team execution
+- [ ] Integration with more skills
+- [ ] Real-time contribution analytics
+- [ ] Community marketplace for skills/roles
+
+---
 
 ## License
 
-MIT License - see LICENSE file for details.
+MIT License - see [LICENSE](./LICENSE) file for details.
+
+---
 
 ## Acknowledgments
 
-Built for Claude Code by the AI development community.
+Built for the Claude Code community by developers who believe in the power of well-organized teams.
+
+---
 
 ## Links
 
-- [Claude Code](https://claude.ai/claude-code)
-- [SKILL.md Specification](https://github.com/anthropics/claude-code-skills)
+- **Repository**: https://github.com/liziye627-design/ceo-skill-framework
+- **Claude Code**: https://claude.ai/claude-code
+- **Skills Spec**: https://github.com/anthropics/claude-code-skills
+- **Issues**: https://github.com/liziye627-design/ceo-skill-framework/issues
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=liziye627-design/ceo-skill-framework&type=Date)](https://star-history.com/#liziye627-design/ceo-skill-framework&Date)
+
+---
+
+## Stargazers
+
+Thanks to all who star this project! ⭐
