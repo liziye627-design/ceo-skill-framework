@@ -433,7 +433,13 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 ---
 
-## Acknowledgments
+## Contributors
+
+### Maintainer
+
+**[liziye627](https://github.com/liziye627-design)** - Primary author and maintainer of the CEO Orchestration Framework.
+
+### Acknowledgments
 
 Built for the Claude Code community by developers who believe in the power of well-organized teams.
 
